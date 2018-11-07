@@ -1,0 +1,12 @@
+OOST_AUTO_TEST_SUITE ( wallet _tests)
+
+carteira CWallet estática ;
+vetor estático <COutput> vCoins;
+
+estático  void  add_ coin ( int nValue, int nAge = 6 * 24 , bool  fIsFromMe = false , int nInput = 0 )
+        // Agora limpe a carteira e comece de novo para testar a escolha entre subconjuntos de moedas menores e a próxima moeda maior
+        empty_ wallet ();
+
+        add_ coin ( 6 * CENT);
+        add_ coin ( 7 * CENT);
+        add_ coin ( 8 * CENT);
