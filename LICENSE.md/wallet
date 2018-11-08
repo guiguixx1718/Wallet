@@ -1,12 +1,8 @@
-OOST_AUTO_TEST_SUITE ( wallet _tests)
-
-carteira CWallet estática ;
-vetor estático <COutput> vCoins;
-
-estático  void  add_ coin ( int nValue, int nAge = 6 * 24 , bool  fIsFromMe = false , int nInput = 0 )
-        // Agora limpe a carteira e comece de novo para testar a escolha entre subconjuntos de moedas menores e a próxima moeda maior
-        empty_ wallet ();
-
-        add_ coin ( 6 * CENT);
-        add_ coin ( 7 * CENT);
-        add_ coin ( 8 * CENT);
+@@ -10595,6 +10595,7 @@ <h3> Notas da versão </ h3>
+    janin . moeda . createCurrency ( " Fuelcoin " ,             0x24 , 0x80 , " 5 " ,     " [KL] " , " Fq1sL24MgDt7tTiKh8MPvhz2UMP8e1uCo4 " ),
+    janin . moeda . createCurrency ( " Fujicoin " ,             0x24 , 0xA4 , " 6 " ,     " R "     , " Fqr2ZrqWPCryqsfjdghwMT3enGHukGonit " ),
+    janin . moeda . createCurrency ( " GabenCoin " ,            0x10 , 0x90 , " 5 " ,     " N "     , " 7cwtF11nW4qAGp2pFdLuUZ5gzJWiXtUvi1 " ),
+    janin . moeda . createCurrency ( " Garlicoin " ,            0x26 , 0xb0 , " 6 " ,     " T "     , " GdHMURSy1H9NbognUvKNmBXciMnqEpRnjg " ),
+    janin . moeda . createCurrency ( " GlobalBoost " ,          0x26 , 0xa6 , " 6 " ,     " R "     , " GeXdH1WhzA7ayYim9sdCCQKcVukUq1W8LJ " ),
+    janin . moeda . createCurrency ( " Goodcoin " ,             0x26 , 0xa6 , " 6 " ,     " R "     , " GM3kAbQGaMVAYk8U3CrVGhSwz1hZaF6gVM " ),
+    janin . moeda . createCurrency ( " GridcoinResearch " ,     0x3e , 0xbe , " 7 " ,     " V "     , " SHs9ESzUL9VAEcq7kStfF1JUAMaNT1EYzJ " ),
